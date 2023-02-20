@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container{
+    text-align: center;
+    margin:auto;
+    padding:3rem;
+    width: 400px;
+}
+
+.todo-list{
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.header{
+    padding:4rem;
+    color: cadetblue;
+}
+
+.add-task{
+    padding:4rem;
+}
+
+.todo-input{
+    margin-top:3rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: solid 3px cadetblue;
+    color: cadetblue;
+}
+
+.todo-add{
+    margin:2rem;
+    font-size: 2rem;
+    border-radius:5px;
+    border: solid 3px cadetblue;
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+.todo-span{
+    font-size: 2rem;
+    color: cadetblue;
+}
+
+ul{
+    color: cadetblue;
+}
+
+.list{
+    border: solid 3px cadetblue;
+    border-radius: 5px;
+}
+.delete{
+    margin:2rem;
+    font-size: 2rem;
+    border-radius:5px;
+    border: solid 3px cadetblue;
+    background-color: cadetblue;
+    color: aliceblue;
+
+}
+
+.list ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:1rem;
+}
